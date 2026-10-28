@@ -24,7 +24,7 @@ Skill `international-prompt-standards` adalah otoritas tertinggi dalam repositor
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │ WORKFLOW REKAYASA PROMPT STANDAR INTERNASIONAL                         │
-├────────────────────────────────────────────────────────────────────────┤
+ solid ├────────────────────────────────────────────────────────────────────────┤
 │ TAHAP 1: DEKOMPOSISI KEBUTUHAN (EventStorming / Subject Identification)│
 │          - Menentukan subjek inti, aksi fisik, emosi, dan pesan kunci. │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -56,11 +56,16 @@ Skill `international-prompt-standards` adalah otoritas tertinggi dalam repositor
 
 ---
 
-## 4. TEMPLATE KANONIKAL UNIVERSAL COMPILER
-
-Gunakan template resmi di:
-- [`templates/universal_prompt_compiler.md`](templates/universal_prompt_compiler.md)
-- Daftar pustaka akademik lengkap: [`references/academic_and_industry_citations.md`](references/academic_and_industry_citations.md)
+## 4. DOKUMEN REFERENSI & TEMPLATE
+- Referensi Akademik & Standar Industri: `references/academic_and_industry_citations.md`
+- Template Universal Prompt Compiler: `templates/universal_prompt_compiler.md`
+- Invarian Standar Prompt Internasional: `../../rules/international_prompt_standards.md`
+- Standar Produksi Multimedia Internasional: `../../rules/multimedia_production_standards.md`
+- 12 Invarian Universal Desain: `../../rules/universal_design_invariants.md`
+- Kitab Standar Prompting Internasional: `../../../doc/international_prompting_bible.md`
+- Standar Media Dunia (ICoD, ACES, SMPTE): `../../../doc/international_media_standards.md`
+- Lembar Audit 25 Poin Kualitas Visual: `../../../doc/anti_ai_slop_checklist.md`
+- Skrip Audit Kualitas Prompt: `../../../scripts/audit_design_prompt.py`
 
 ---
 

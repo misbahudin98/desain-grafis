@@ -62,15 +62,27 @@ Skill ini secara otomatis mengonversi prompt master ke dalam format spesifik mas
 ---
 
 ## 4. TEMPLATE SIAP PAKAI
-
-Lihat template lengkap di:
-- `templates/commercial_product_ad.md`
-- `templates/cinematic_portrait.md`
-- `templates/architectural_visualization.md`
+- Template Iklan Komersial Mewah: `templates/commercial_product_ad.md`
+- Template Potret Sinematik Manusia: `templates/cinematic_portrait.md`
+- Template Visualisasi Arsitektur: `templates/architectural_visualization.md`
+- Master Prompt Koleksi:
+  - `../../../prompts/commercial_ads/minimalist_coffee_campaign.md`
+  - `../../../prompts/cinematic_portraits/master_artisan_at_work.md`
+  - `../../../prompts/landscape_architecture/modern_concrete_pavilion.md`
 
 ---
 
-## 5. CHECKLIST VERIFIKASI PROMPT SEBELUM DIRILIS
+## 5. DOKUMEN REFERENSI & SSOT
+- Panduan Optik Kamera, Lensa, & Sensor: `references/camera_lenses_and_sensors.md`
+- Invarian Generasi Gambar AI: `../../rules/image_generation_invariants.md`
+- 12 Invarian Desain Universal & Anti-Slop: `../../rules/universal_design_invariants.md`
+- Lembar Audit 25 Poin Kualitas Visual: `../../../doc/anti_ai_slop_checklist.md`
+- Master Palet & Teori Warna: `../../../doc/color_palette_mastery.md`
+- Skrip Penguji Kualitas Prompt: `../../../scripts/audit_design_prompt.py`
+
+---
+
+## 6. CHECKLIST VERIFIKASI PROMPT SEBELUM DIRILIS
 
 1. [ ] Apakah subjek memiliki aksi fisik yang jelas, bukan sekadar berdiri kaku menatap kamera?
 2. [ ] Apakah lensa dan bukaan diafragma spesifik disebutkan ($35\text{mm}, 50\text{mm}, 85\text{mm}$)?

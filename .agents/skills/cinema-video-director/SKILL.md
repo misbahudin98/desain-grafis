@@ -51,7 +51,7 @@ A continuous 5-second cinematic tracking shot. [Subjek bergerak di lingkungan de
 
 ---
 
-## 4. TEMPLATE KONTRAK ADENGAN (SCENE SPECIFICATION)
+## 4. TEMPLATE KONTRAK ADEGAN (SCENE SPECIFICATION)
 
 Setiap permintaan pengarahan video wajib menghasilkan spesifikasi terstruktur:
 
@@ -69,6 +69,15 @@ Setiap permintaan pengarahan video wajib menghasilkan spesifikasi terstruktur:
 
 ---
 
-## 5. PANDUAN REFERENSI
-- Taksonomi gerak kamera lengkap: `references/camera_movement_glossary.md`
-- Template naskah adegan: `templates/short_film_shotlist.md`
+## 5. DOKUMEN REFERENSI & TEMPLATE
+- Glosarium Gerakan Kamera Sinematografi ASC: `references/camera_movement_glossary.md`
+- Template Shot List Film Pendek: `templates/short_film_shotlist.md`
+- Template Master Storyboard Repositori: `../../../templates/storyboard_template.md`
+- Invarian Sinematografi & Video AI: `../../rules/video_cinematography_invariants.md`
+- Standar Produksi Multimedia Internasional: `../../rules/multimedia_production_standards.md`
+- 12 Invarian Universal Desain: `../../rules/universal_design_invariants.md`
+- Panduan Pencahayaan & Optik Sinema: `../../../doc/cinematography_guide.md`
+- Standar Media Dunia (ICoD, ACES, SMPTE 180°): `../../../doc/international_media_standards.md`
+- Contoh Master Prompt Sekuens Video: `../../../prompts/video_sequences/cyberpunk_rain_sequence.md`
+- Pipeline Konversi FFmpeg 24fps & LUT: `../programmatic-graphics-engine/SKILL.md`
+- Skrip Audit Kualitas Prompt: `../../../scripts/audit_design_prompt.py`

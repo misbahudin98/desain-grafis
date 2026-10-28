@@ -52,7 +52,17 @@ ffmpeg -i input.mp4 -filter_complex "[0:v]trim=0:4,setpts=PTS-STARTPTS[v1];[0:v]
 
 ---
 
-## 4. SKRIP OTOMASI TERSAJI
+## 4. DOKUMEN REFERENSI & TEMPLATE
+- Standar Spesifikasi Vektor SVG: `references/svg_specifications_and_standards.md`
+- Template Kartu Vektor Swiss Modernis: `templates/swiss_vector_card_template.md`
+- Invarian Tipografi & Tata Letak: `../../rules/typography_and_layout_invariants.md`
+- Invarian Teori Warna & Kontras: `../../rules/color_theory_and_grading_invariants.md`
+- Kitab Tipografi Dunia: `../../../doc/typography_bible.md`
+- Master Palet & Kontras WCAG AAA: `../../../doc/color_palette_mastery.md`
+
+---
+
+## 5. SKRIP OTOMASI TERSAJI
 - Skrip generator banner SVG: `scripts/generate_svg_card.py`
 - Skrip audit prompt: `../../scripts/audit_design_prompt.py`
 - Skrip generator palet warna & kontras WCAG: `../../scripts/generate_palette.py`

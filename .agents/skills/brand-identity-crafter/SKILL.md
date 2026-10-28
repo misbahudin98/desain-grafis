@@ -77,6 +77,15 @@ Setiap output perancangan identitas merek wajib disusun dalam format markdown fo
 
 ---
 
-## 4. DOKUMEN REFERENSI
-- Anatomi logo: `references/logo_anatomy_and_types.md`
-- Template pedoman merek: `templates/brand_identity_guideline.md`
+## 4. DOKUMEN REFERENSI & TEMPLATE
+- Anatomi & Klasifikasi Logo Internasional: `references/logo_anatomy_and_types.md`
+- Template Panduan Merek Lokal Skill: `templates/brand_identity_guideline.md`
+- Template Master Pedoman Merek Repositori: `../../../templates/brand_guidelines_template.md`
+- Template Moodboard Spesifikasi Visual: `../../../templates/moodboard_specification.md`
+- Invarian Tipografi & Tata Letak: `../../rules/typography_and_layout_invariants.md`
+- Invarian Teori Warna & Gradasi: `../../rules/color_theory_and_grading_invariants.md`
+- 12 Invarian Universal Desain: `../../rules/universal_design_invariants.md`
+- Kitab Tipografi Dunia: `../../../doc/typography_bible.md`
+- Master Teori Warna & Palet: `../../../doc/color_palette_mastery.md`
+- Skrip Kalkulator Palet & Kontras WCAG: `../../../scripts/generate_palette.py`
+- Contoh Master Prompt Mockup Merek: `../../../prompts/branding/luxury_monogram_identity.md`
