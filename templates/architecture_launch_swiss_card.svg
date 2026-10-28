@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%">
+  <defs>
+    <!-- 1. Background Obsidian to Onyx Gradient -->
+    <linearGradient id="bgCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="50%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- 2. Architectural Accent Glow (Cyan & Emerald Ambient) -->
+    <radialGradient id="emeraldGlow" cx="82%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.14" />
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#080C14" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="cornerGlow" cx="10%" cy="90%" r="40%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#080C14" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- 3. Glassmorphic Card Gradient -->
+    <linearGradient id="glassCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- 4. Swiss Modular 80px Base Grid -->
+    <pattern id="grid80" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.6"/>
+      <circle cx="0" cy="0" r="1.5" fill="#334155" fill-opacity="0.8"/>
+    </pattern>
+
+    <!-- 5. Sub-grid 20px Dots -->
+    <pattern id="dot20" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="0.5" fill="#475569" fill-opacity="0.3"/>
+    </pattern>
+
+    <!-- 6. Internal Typography Stylesheet -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap');
+      .font-display { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; }
+      .font-body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; }
+      .font-mono { font-family: 'JetBrains Mono', 'Space Mono', monospace; }
+    </style>
+  </defs>
+
+  <title>Peluncuran Arsitektur Desain Baru - Swiss Grid Modernist</title>
+  <desc>OpenGraph 1200x630 vector banner designed with Josef Müller-Brockmann modular grid discipline and Bringhurst typographic scale.</desc>
+
+  <!-- Latar Belakang Kanvas -->
+  <rect width="1200" height="630" fill="url(#bgCanvas)" />
+  <rect width="1200" height="630" fill="url(#emeraldGlow)" />
+  <rect width="1200" height="630" fill="url(#cornerGlow)" />
+
+  <!-- Lapisan Kisi Arsitektur Swiss (80px & 20px Dots) -->
+  <rect width="1200" height="630" fill="url(#dot20)" />
+  <rect width="1200" height="630" fill="url(#grid80)" />
+
+  <!-- Garis Batas Luar Presisi (1px Hairline Frame) -->
+  <rect x="24" y="24" width="1152" height="582" fill="none" stroke="#334155" stroke-width="1" stroke-opacity="0.6" rx="6" />
+
+  <!-- Crosshair Registration Marks (Khas Blueprint Swiss) -->
+  <g stroke="#10B981" stroke-width="1" stroke-opacity="0.6">
+    <line x1="16" y1="24" x2="32" y2="24" />
+    <line x1="24" y1="16" x2="24" y2="32" />
+    <line x1="1168" y1="24" x2="1184" y2="24" />
+    <line x1="1176" y1="16" x2="1176" y2="32" />
+    <line x1="16" y1="606" x2="32" y2="606" />
+    <line x1="24" y1="598" x2="24" y2="614" />
+    <line x1="1168" y1="606" x2="1184" y2="606" />
+    <line x1="1176" y1="598" x2="1176" y2="614" />
+  </g>
+
+  <!-- ==================== HEADER METADATA (Y: 65 - 110) ==================== -->
+  <g transform="translate(72, 70)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="190" height="28" rx="4" fill="#064E3B" fill-opacity="0.4" stroke="#10B981" stroke-width="1"/>
+    <circle cx="14" cy="14" r="4" fill="#10B981" />
+    <text x="26" y="19" class="font-mono" font-size="11" font-weight="700" fill="#10B981" letter-spacing="0.12em">SYSTEM LAUNCH</text>
+
+    <!-- Release Tag & Architecture Standard -->
+    <text x="210" y="19" class="font-mono" font-size="12" font-weight="500" fill="#64748B" letter-spacing="0.08em">
+      CORE v1.0 // DETERMINISTIC SPATIAL SPECIFICATION
+    </text>
+
+    <text x="1056" y="19" text-anchor="end" class="font-mono" font-size="12" font-weight="600" fill="#94A3B8" letter-spacing="0.05em">
+      MODULAR GRID // 1200x630
+    </text>
+  </g>
+
+  <!-- Header Horizontal Divider -->
+  <line x1="72" y1="115" x2="1128" y2="115" stroke="#1E293B" stroke-width="1" />
+
+  <!-- ==================== AREA KONTEN UTAMA (KIRI) ==================== -->
+  <g transform="translate(72, 160)">
+    <!-- Eyebrow Subtitle -->
+    <text x="0" y="24" class="font-mono" font-size="13" font-weight="600" fill="#06B6D4" letter-spacing="0.18em">
+      BAUHAUS × SWISS MODERNISM
+    </text>
+
+    <!-- Main Hero Headline (2 Baris Display, Inter 58px) -->
+    <text x="0" y="90" class="font-display" font-size="58" fill="#F8FAFC" letter-spacing="-0.035em">
+      NEW DESIGN
+    </text>
+    <text x="0" y="156" class="font-display" font-size="58" fill="#F8FAFC" letter-spacing="-0.035em">
+      ARCHITECTURE.
+    </text>
+
+    <!-- Supporting Proposition (Bringhurst Clean Measure, 21px) -->
+    <text x="0" y="222" class="font-body" font-size="20" fill="#94A3B8" letter-spacing="-0.01em">
+      Modular 8-point mathematical grids, functional restraint,
+    </text>
+    <text x="0" y="254" class="font-body" font-size="20" fill="#94A3B8" letter-spacing="-0.01em">
+      and uncompromised typographical hierarchy. Zero AI Slop.
+    </text>
+
+    <!-- 3 Modular Feature Badges -->
+    <g transform="translate(0, 305)">
+      <!-- Badge 1 -->
+      <rect x="0" y="0" width="168" height="34" rx="4" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="14" y="22" class="font-mono" font-size="12" font-weight="600" fill="#F1F5F9">01 // SWISS GRID 8pt</text>
+
+      <!-- Badge 2 -->
+      <rect x="180" y="0" width="168" height="34" rx="4" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="194" y="22" class="font-mono" font-size="12" font-weight="600" fill="#F1F5F9">02 // WCAG 2.2 AAA</text>
+
+      <!-- Badge 3 -->
+      <rect x="360" y="0" width="176" height="34" rx="4" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="374" y="22" class="font-mono" font-size="12" font-weight="600" fill="#10B981">03 // PURE SVG 100%</text>
+    </g>
+  </g>
+
+  <!-- ==================== AREA ELEMEN GEOMETRIS ARSITEKTUR (KANAN) ==================== -->
+  <g transform="translate(730, 140)">
+    <!-- Glassmorphic Blueprint Panel -->
+    <rect x="0" y="0" width="398" height="330" rx="8" fill="url(#glassCard)" stroke="#334155" stroke-width="1" />
+
+    <!-- Panel Header Strip -->
+    <line x1="0" y1="40" x2="398" y2="40" stroke="#334155" stroke-width="0.75" />
+    <circle cx="20" cy="20" r="4" fill="#EF4444" fill-opacity="0.8"/>
+    <circle cx="36" cy="20" r="4" fill="#F59E0B" fill-opacity="0.8"/>
+    <circle cx="52" cy="20" r="4" fill="#10B981" fill-opacity="0.8"/>
+    <text x="378" y="25" text-anchor="end" class="font-mono" font-size="11" font-weight="500" fill="#64748B">
+      SCHEMATIC // FIG. 08
+    </text>
+
+    <!-- Isometric Structural Pavilion Lines (Modernist Architecture Geometry) -->
+    <g transform="translate(200, 195)">
+      <!-- Ground Floor Plane -->
+      <polygon points="0,-75 140,5 0,85 -140,5" fill="#0F172A" fill-opacity="0.7" stroke="#06B6D4" stroke-width="1" stroke-dasharray="4,4"/>
+      
+      <!-- Primary Cantilever Slab -->
+      <polygon points="0,-125 140,-45 0,35 -140,-45" fill="#1E293B" fill-opacity="0.5" stroke="#10B981" stroke-width="1.5"/>
+      
+      <!-- Roof Monolith Slab -->
+      <polygon points="0,-165 140,-85 0,-5 -140,-85" fill="#334155" fill-opacity="0.3" stroke="#F8FAFC" stroke-width="1.5"/>
+
+      <!-- Structural Vertical Columns -->
+      <line x1="-100" y1="-70" x2="-100" y2="15" stroke="#10B981" stroke-width="2"/>
+      <line x1="100" y1="-70" x2="100" y2="15" stroke="#10B981" stroke-width="2"/>
+      <line x1="0" y1="-35" x2="0" y2="55" stroke="#06B6D4" stroke-width="2"/>
+
+      <!-- Interior Golden Light Center Core -->
+      <circle cx="0" cy="0" r="16" fill="#10B981" fill-opacity="0.25"/>
+      <circle cx="0" cy="0" r="5" fill="#10B981"/>
+
+      <!-- Dimension Lines & Annotations -->
+      <line x1="-155" y1="-45" x2="-155" y2="5" stroke="#64748B" stroke-width="0.75"/>
+      <polyline points="-158,-40 -155,-45 -152,-40" fill="none" stroke="#64748B" stroke-width="0.75"/>
+      <polyline points="-158,0 -155,5 -152,0" fill="none" stroke="#64748B" stroke-width="0.75"/>
+      <text x="-165" y="-18" class="font-mono" font-size="9" fill="#94A3B8" text-anchor="end">Δh=50</text>
+    </g>
+
+    <!-- Bottom Metric Card in Panel -->
+    <g transform="translate(24, 280)">
+      <text x="0" y="15" class="font-mono" font-size="11" font-weight="600" fill="#F1F5F9">RATIO: 1:1.618</text>
+      <text x="0" y="30" class="font-mono" font-size="9" fill="#64748B">GOLDEN PROPORTION</text>
+
+      <text x="175" y="15" class="font-mono" font-size="11" font-weight="600" fill="#10B981">CONTRAST: 18.3:1</text>
+      <text x="175" y="30" class="font-mono" font-size="9" fill="#64748B">WCAG 2.2 LEVEL AAA</text>
+
+      <text x="350" y="15" text-anchor="end" class="font-mono" font-size="11" font-weight="600" fill="#06B6D4">45-75 CPL</text>
+      <text x="350" y="30" text-anchor="end" class="font-mono" font-size="9" fill="#64748B">BRINGHURST MEASURE</text>
+    </g>
+  </g>
+
+  <!-- ==================== FOOTER STATUS BAR (Y: 520 - 580) ==================== -->
+  <line x1="72" y1="515" x2="1128" y2="515" stroke="#1E293B" stroke-width="1" />
+
+  <g transform="translate(72, 552)">
+    <!-- Studio Identity -->
+    <text x="0" y="0" class="font-display" font-size="16" font-weight="700" fill="#F8FAFC">
+      Desain-Grafis Architecture Studio
+    </text>
+    <text x="0" y="18" class="font-mono" font-size="11" font-weight="400" fill="#64748B">
+      COMPUTATIONAL DESIGN &amp; SWISS GRID ENGINE
+    </text>
+
+    <!-- Center Coordinates -->
+    <text x="528" y="8" class="font-mono" font-size="11" font-weight="500" fill="#475569" text-anchor="middle" letter-spacing="0.1em">
+      SWISS GRID PROTOCOL // 47.3769° N, 8.5417° E
+    </text>
+
+    <!-- Right Specs & Status -->
+    <text x="1056" y="0" text-anchor="end" class="font-mono" font-size="13" font-weight="700" fill="#10B981">
+      100% PURE SVG // ZERO PIXELATION
+    </text>
+    <text x="1056" y="18" text-anchor="end" class="font-mono" font-size="11" font-weight="400" fill="#64748B">
+      ISO 216 &amp; IAB LEAN COMPLIANT
+    </text>
+  </g>
+</svg>
