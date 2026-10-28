@@ -18,6 +18,7 @@
 | **[INV-DES-08]** | Material Authenticity | [`doc/anti_ai_slop_checklist.md`](doc/anti_ai_slop_checklist.md) | Subsurface scattering kulit, serat kain katun/linen, pantulan logam sikat, pembiasan kaca nyata. |
 | **[INV-DES-09]** | ASC Cinematography Motion | [`.agents/rules/video_cinematography_invariants.md`](.agents/rules/video_cinematography_invariants.md) | Vektor gerak fisik (Dolly, Truck, Pan, Crane, Orbit), 180° shutter blur, 24fps cinematic pacing. |
 | **[INV-DES-10]** | Disney 12 Motion Principles | [`.agents/rules/video_cinematography_invariants.md`](.agents/rules/video_cinematography_invariants.md) | Easing curves (slow-in/slow-out), arcs, follow-through, anticipation, zero temporal morphing. |
+| **[INV-DES-11]** | International Prompt Standards | [`.agents/rules/international_prompt_standards.md`](.agents/rules/international_prompt_standards.md) | IEEE P3394, ISO/IEC TS 42119-8, Oppenlaender 6-part taxonomy, Anthropic XML, eliminasi total buzzword. |
 
 ---
 
@@ -27,6 +28,7 @@ Gunakan matriks ini untuk memilih skill yang tepat secara instan:
 
 | Perintah / Tag Pemicu | Domain Tugas | Skill Utama | Berkas SSoT & Template |
 | :--- | :--- | :--- | :--- |
+| `@prompt`, `@prompt-standard`, `@standard` | Standar Prompt Internasional & Audit | [`.agents/skills/international-prompt-standards/SKILL.md`](.agents/skills/international-prompt-standards/SKILL.md) | [`doc/international_prompting_bible.md`](doc/international_prompting_bible.md), [`templates/universal_prompt_compiler.md`](templates/universal_prompt_compiler.md) |
 | `@image`, `@visual`, `@prompt-image` | Prompt Foto & Seni Gambar AI | [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md) | [`prompts/commercial_ads/`](prompts/commercial_ads/), [`prompts/cinematic_portraits/`](prompts/cinematic_portraits/) |
 | `@video`, `@cinema`, `@storyboard` | Pengarahan Sinematik & Urutan Video | [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md) | [`templates/storyboard_template.md`](templates/storyboard_template.md), [`doc/cinematography_guide.md`](doc/cinematography_guide.md) |
 | `@brand`, `@identity`, `@logo` | Identitas Merek & Desain Manual | [`.agents/skills/brand-identity-crafter/SKILL.md`](.agents/skills/brand-identity-crafter/SKILL.md) | [`templates/brand_identity_guideline.md`](templates/brand_identity_guideline.md), [`prompts/branding/`](prompts/branding/) |

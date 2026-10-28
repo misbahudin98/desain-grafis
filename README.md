@@ -23,25 +23,28 @@
 flowchart TD
     subgraph Core ["SISTEM INVARIAN MUTLAK (.agents/rules)"]
         R1["universal_design_invariants.md"]
-        R2["image_generation_invariants.md"]
-        R3["video_cinematography_invariants.md"]
-        R4["typography_and_layout_invariants.md"]
-        R5["color_theory_and_grading_invariants.md"]
+        R2["international_prompt_standards.md"]
+        R3["image_generation_invariants.md"]
+        R4["video_cinematography_invariants.md"]
+        R5["typography_and_layout_invariants.md"]
+        R6["color_theory_and_grading_invariants.md"]
     end
 
     subgraph Skills ["SKILL AGENT OTONOM (.agents/skills)"]
-        S1["visual-prompt-architect<br/>(Midjourney, Flux, Imagen)"]
-        S2["cinema-video-director<br/>(Runway Gen-3, Kling, Sora)"]
-        S3["brand-identity-crafter<br/>(Logo Geometry & Tokens)"]
-        S4["programmatic-graphics-engine<br/>(Pure SVG & FFmpeg)"]
+        S1["international-prompt-standards<br/>(IEEE P3394 & ISO/IEC TS 42119-8)"]
+        S2["visual-prompt-architect<br/>(Midjourney, Flux, Imagen)"]
+        S3["cinema-video-director<br/>(Runway Gen-3, Kling, Sora)"]
+        S4["brand-identity-crafter<br/>(Logo Geometry & Tokens)"]
+        S5["programmatic-graphics-engine<br/>(Pure SVG & FFmpeg)"]
     end
 
     subgraph Knowledge ["KNOWLEDGE BASE & SSoT (doc/)"]
-        D1["design_manifesto.md"]
-        D2["cinematography_guide.md"]
-        D3["color_palette_mastery.md"]
-        D4["typography_bible.md"]
-        D5["anti_ai_slop_checklist.md"]
+        D1["international_prompting_bible.md"]
+        D2["design_manifesto.md"]
+        D3["cinematography_guide.md"]
+        D4["color_palette_mastery.md"]
+        D5["typography_bible.md"]
+        D6["anti_ai_slop_checklist.md"]
     end
 
     subgraph Automation ["VALIDASI & AUTOMASI (scripts/)"]
@@ -62,18 +65,21 @@ flowchart TD
 ```
 desaiin-grafis/
 ├── .agents/
-│   ├── rules/                              # 5 Invarian Mutlak Sistem
+│   ├── rules/                              # 6 Invarian Mutlak Sistem
 │   │   ├── universal_design_invariants.md  # 12 Hukum Emas Desain & Anti-Slop
+│   │   ├── international_prompt_standards.md# Standar IEEE P3394, ISO, & Oppenlaender
 │   │   ├── image_generation_invariants.md  # Rumus 7 Segmen Prompt & Optik Lensa
 │   │   ├── video_cinematography_invariants.md# Gramatika Bidikan & Vektor Kamera
 │   │   ├── typography_and_layout_invariants.md# Grid Swiss & Tipografi Bringhurst
 │   │   └── color_theory_and_grading_invariants.md# Teori Warna 60-30-10 & Film Stock
-│   └── skills/                             # 4 Spesialis Agen Otonom
+│   └── skills/                             # 5 Spesialis Agen Otonom
+│       ├── international-prompt-standards/ # Master Arsitek Prompt Internasional
 │       ├── visual-prompt-architect/        # DoP Gambar AI (Midjourney & Flux)
 │       ├── cinema-video-director/          # Sutradara Film AI (Runway & Kling)
 │       ├── brand-identity-crafter/         # Perancang Sistem Identitas Merek
 │       └── programmatic-graphics-engine/   # Generator SVG & Pipeline FFmpeg
 ├── doc/                                    # Master SSoT & Buku Panduan
+│   ├── international_prompting_bible.md    # Kitab Standar Prompting Internasional
 │   ├── design_manifesto.md                 # Manifesto Dieter Rams & Bauhaus
 │   ├── cinematography_guide.md             # Panduan Pencahayaan & Optik Sinema
 │   ├── color_palette_mastery.md            # Master Palet & Kontras WCAG AAA

@@ -36,10 +36,14 @@ Seluruh model AI (Gemini, Antigravity, Claude, Cursor) dan perancang kreatif man
    - Eksekusi pembuatan berkas, pengujian skrip Python, dan validasi kontras secara mandiri dan proaktif dalam satu giliran kerja.
    - Wajib memverifikasi skor audit prompt ($\ge 85/100$) menggunakan `scripts/audit_design_prompt.py`.
 
+8. **[RULE-08-PROMPT-STANDARDS] Kepatuhan IEEE P3394 & ISO/IEC TS 42119-8:**
+   - Wajib menerapkan taksonomi 6-modifier Jonas Oppenlaender (ACM), pembatas XML Anthropic, dan parameter deterministik `--style raw`.
+
 ---
 
 ## 2. PANDUAN PENGGUNAAN CEPAT (QUICK ROUTING)
 
+- Untuk audit standar prompt: Panggil `@prompt` atau rujuk [`.agents/skills/international-prompt-standards/SKILL.md`](.agents/skills/international-prompt-standards/SKILL.md)
 - Untuk prompt foto & ilustrasi: Panggil `@image` atau rujuk [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md)
 - Untuk video & storyboard: Panggil `@video` atau rujuk [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md)
 - Untuk brand identity & logo: Panggil `@brand` atau rujuk [`.agents/skills/brand-identity-crafter/SKILL.md`](.agents/skills/brand-identity-crafter/SKILL.md)
