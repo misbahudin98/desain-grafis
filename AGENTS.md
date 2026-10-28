@@ -21,6 +21,7 @@ Rujuk berkas berikut sebagai Single Source of Truth (SSoT):
 6. **Tipografi & Tata Letak:** [`.agents/rules/typography_and_layout_invariants.md`](.agents/rules/typography_and_layout_invariants.md) ➔ [`doc/typography_bible.md`](doc/typography_bible.md)
 7. **Teori Warna & Grading:** [`.agents/rules/color_theory_and_grading_invariants.md`](.agents/rules/color_theory_and_grading_invariants.md) ➔ [`doc/color_palette_mastery.md`](doc/color_palette_mastery.md)
 8. **Grafik Berbasis Kode & SVG:** [`.agents/skills/programmatic-graphics-engine/SKILL.md`](.agents/skills/programmatic-graphics-engine/SKILL.md) ➔ [`scripts/audit_design_prompt.py`](scripts/audit_design_prompt.py)
+9. **Desain Marketing & Media Sosial:** [`.agents/rules/social_and_marketing_design_invariants.md`](.agents/rules/social_and_marketing_design_invariants.md) ➔ [`.agents/skills/marketing-collateral-architect/SKILL.md`](.agents/skills/marketing-collateral-architect/SKILL.md) ➔ [`doc/marketing_and_social_media_bible.md`](doc/marketing_and_social_media_bible.md)
 
 ---
 

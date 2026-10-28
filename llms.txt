@@ -1,6 +1,6 @@
 # Desain-Grafis: Autonomous Creative & Multimedia Design System (llms.txt)
 > **Engine:** Desain-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
-> **Standards:** Bauhaus, Dieter Rams (*10 Principles*), Josef Müller-Brockmann (*Grid Systems*), Robert Bringhurst (*Typographic Style*), American Society of Cinematographers (ASC), Disney's 12 Principles of Animation, WCAG 2.2 AAA.
+> **Standards:** Bauhaus, Dieter Rams (*10 Principles*), Josef Müller-Brockmann (*Grid Systems*), Robert Bringhurst (*Typographic Style*), American Society of Cinematographers (ASC), Disney's 12 Principles of Animation, WCAG 2.2 AAA, ISO 216 / ISO 12647-2, IAB Tech Lab, Meta/WhatsApp Safe Zones.
 
 ---
 
@@ -20,6 +20,7 @@
 | **[INV-DES-10]** | Disney 12 Motion Principles | [`.agents/rules/video_cinematography_invariants.md`](.agents/rules/video_cinematography_invariants.md) | Easing curves (slow-in/slow-out), arcs, follow-through, anticipation, zero temporal morphing. |
 | **[INV-DES-11]** | International Prompt Standards | [`.agents/rules/international_prompt_standards.md`](.agents/rules/international_prompt_standards.md) | IEEE P3394, ISO/IEC TS 42119-8, Oppenlaender 6-part taxonomy, Anthropic XML, eliminasi total buzzword. |
 | **[INV-DES-12]** | Multimedia Production Standards | [`.agents/rules/multimedia_production_standards.md`](.agents/rules/multimedia_production_standards.md) | ICoD, ACES ST 2065-1, Ansel Adams Zone System, Tufte Data-to-Ink, SMPTE 180° Shutter, WCAG AAA. |
+| **[INV-DES-13]** | Marketing Collateral Standards | [`.agents/rules/social_and_marketing_design_invariants.md`](.agents/rules/social_and_marketing_design_invariants.md) | ISO 216 / ISO 12647-2 (Bleed 3mm, 300 DPI), IAB LEAN (<=200KB), Carousel 4:5, Stories UI Safe Zones. |
 
 ---
 
@@ -34,10 +35,12 @@ Gunakan matriks ini untuk memilih skill yang tepat secara instan:
 | `@image`, `@visual`, `@prompt-image` | Prompt Foto & Seni Gambar AI | [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md) | [`prompts/commercial_ads/`](prompts/commercial_ads/), [`prompts/cinematic_portraits/`](prompts/cinematic_portraits/) |
 | `@video`, `@cinema`, `@storyboard` | Pengarahan Sinematik & Urutan Video | [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md) | [`templates/storyboard_template.md`](templates/storyboard_template.md), [`doc/cinematography_guide.md`](doc/cinematography_guide.md) |
 | `@brand`, `@identity`, `@logo` | Identitas Merek & Desain Manual | [`.agents/skills/brand-identity-crafter/SKILL.md`](.agents/skills/brand-identity-crafter/SKILL.md) | [`templates/brand_identity_guideline.md`](templates/brand_identity_guideline.md), [`prompts/branding/`](prompts/branding/) |
+| `@marketing`, `@collateral`, `@flyer`, `@carousel`, `@status` | Flayer, IAB Banner, Carousel, Stories | [`.agents/skills/marketing-collateral-architect/SKILL.md`](.agents/skills/marketing-collateral-architect/SKILL.md) | [`doc/marketing_and_social_media_bible.md`](doc/marketing_and_social_media_bible.md), [`scripts/verify_collateral_specs.py`](scripts/verify_collateral_specs.py) |
 | `@programmatic`, `@svg`, `@code-graphics` | Grafik Vektor Kode (SVG & FFmpeg) | [`.agents/skills/programmatic-graphics-engine/SKILL.md`](.agents/skills/programmatic-graphics-engine/SKILL.md) | [`.agents/skills/programmatic-graphics-engine/scripts/generate_svg_card.py`](.agents/skills/programmatic-graphics-engine/scripts/generate_svg_card.py) |
 | `@media`, `@standards`, `#multimedia` | Standar Media Gambar & Video Dunia | Manual Standar Media | [`doc/international_media_standards.md`](doc/international_media_standards.md) |
 | `@audit`, `#audit-prompt`, `#anti-slop` | Audit Kualitas Prompt & Anti-Slop | Skrip Audit Mandiri | [`scripts/audit_design_prompt.py`](scripts/audit_design_prompt.py), [`doc/anti_ai_slop_checklist.md`](doc/anti_ai_slop_checklist.md) |
 | `@palette`, `#wcag`, `#color-contrast` | Kalkulasi Harmoni Warna & Kontras | Skrip Palet Matematis | [`scripts/generate_palette.py`](scripts/generate_palette.py), [`doc/color_palette_mastery.md`](doc/color_palette_mastery.md) |
+| `@verify-collateral`, `#safe-zones` | Verifikasi Safe Zone Stories & Cetak | Skrip Validator Collateral | [`scripts/verify_collateral_specs.py`](scripts/verify_collateral_specs.py) |
 
 ---
 

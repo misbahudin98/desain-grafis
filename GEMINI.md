@@ -1,6 +1,6 @@
 # Universal System Invariants & Autonomous Agent Rules (GEMINI.md)
 > **Engine:** Desain-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
-> **Standards:** Bauhaus, Dieter Rams (*10 Principles*), Josef Müller-Brockmann (*Grid Systems*), Robert Bringhurst (*Typographic Style*), American Society of Cinematographers (ASC), Disney's 12 Principles of Animation, WCAG 2.2 AAA.
+> **Standards:** Bauhaus, Dieter Rams (*10 Principles*), Josef Müller-Brockmann (*Grid Systems*), Robert Bringhurst (*Typographic Style*), American Society of Cinematographers (ASC), Disney's 12 Principles of Animation, WCAG 2.2 AAA, ISO 216 / ISO 12647-2, IAB Tech Lab, Meta/WhatsApp Safe Zones.
 
 ---
 
@@ -42,6 +42,9 @@ Seluruh model AI (Gemini, Antigravity, Claude, Cursor) dan perancang kreatif man
 9. **[RULE-09-MEDIA-STANDARDS] Kepatuhan ICoD, ACES, & SMPTE 180°:**
    - Wajib menerapkan Ansel Adams Zone System, ACES Color pipeline, rasio data-ke-tinta Edward Tufte, dan 12 prinsip animasi Disney.
 
+10. **[RULE-10-COLLATERAL-STANDARDS] Kepatuhan ISO 216, IAB LEAN, & Meta Safe Zones:**
+    - Wajib menerapkan bleed $3\text{mm}$ pada cetak, optical center $55\% - 60\%$, batas LEAN IAB $\le 200\text{KB}$, dan zona aman UI cerita 9:16 (Top $270\text{px}$, Bottom $270\text{px}$/$670\text{px}$, Margin $65\text{px}$).
+
 ---
 
 ## 2. PANDUAN PENGGUNAAN CEPAT (QUICK ROUTING)
@@ -52,5 +55,7 @@ Seluruh model AI (Gemini, Antigravity, Claude, Cursor) dan perancang kreatif man
 - Untuk prompt foto & ilustrasi: Panggil `@image` atau rujuk [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md)
 - Untuk video & storyboard: Panggil `@video` atau rujuk [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md)
 - Untuk brand identity & logo: Panggil `@brand` atau rujuk [`.agents/skills/brand-identity-crafter/SKILL.md`](.agents/skills/brand-identity-crafter/SKILL.md)
+- Untuk flayer, banner, carousel, status/stories: Panggil `@marketing` atau `@collateral` atau rujuk [`.agents/skills/marketing-collateral-architect/SKILL.md`](.agents/skills/marketing-collateral-architect/SKILL.md)
 - Untuk grafik kode SVG: Panggil `@programmatic` atau jalankan `python .agents/skills/programmatic-graphics-engine/scripts/generate_svg_card.py`
-- Untuk audit kualitas: Jalankan `python scripts/audit_design_prompt.py`
+- Untuk audit kualitas prompt: Jalankan `python scripts/audit_design_prompt.py`
+- Untuk validasi safe zones & spesifikasi marketing: Jalankan `python scripts/verify_collateral_specs.py`
