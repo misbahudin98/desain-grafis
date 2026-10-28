@@ -8,9 +8,10 @@ Rujuk berkas berikut sebagai Single Source of Truth (SSoT):
 1. [`.agents/rules/universal_design_invariants.md`](.agents/rules/universal_design_invariants.md) — 12 Invarian Mutlak Desain Visual & Anti-AI Slop.
 2. [`GEMINI.md`](GEMINI.md) — Instruksi eksekusi root workspace.
 3. [`llms.txt`](llms.txt) — Peta Golden Invariants dan AI Fast Task Router.
-4. [`doc/design_manifesto.md`](doc/design_manifesto.md) — Filosofi Dieter Rams (*Weniger, aber besser*), Bauhaus, dan Swiss Grid.
-5. [`doc/anti_ai_slop_checklist.md`](doc/anti_ai_slop_checklist.md) — Lembar audit 25 poin kualitas visual sebelum publikasi.
-6. [`doc/cara_penggunaan_skill.md`](doc/cara_penggunaan_skill.md) — Buku panduan lengkap dan interaktif penggunaan seluruh skill.
+4. [`doc/strategic_visual_publishing_framework.md`](doc/strategic_visual_publishing_framework.md) — Kerangka Kerja 10 Dimensi Visual & Video Siap Pakai Berdampak Tinggi.
+5. [`doc/design_manifesto.md`](doc/design_manifesto.md) — Filosofi Dieter Rams (*Weniger, aber besser*), Bauhaus, dan Swiss Grid.
+6. [`doc/anti_ai_slop_checklist.md`](doc/anti_ai_slop_checklist.md) — Lembar audit 25 poin kualitas visual sebelum publikasi.
+7. [`doc/cara_penggunaan_skill.md`](doc/cara_penggunaan_skill.md) — Buku panduan lengkap dan interaktif penggunaan seluruh skill.
 
 ### B. Peta Invarian Spesialisasi:
 1. **Standar Produksi Multimedia:** [`.agents/rules/multimedia_production_standards.md`](.agents/rules/multimedia_production_standards.md) ➔ [`doc/international_media_standards.md`](doc/international_media_standards.md)
@@ -26,6 +27,7 @@ Rujuk berkas berikut sebagai Single Source of Truth (SSoT):
 ---
 
 ### KEBIJAKAN ANTI-SLOP & PROTOKOL KERJA KREATIF:
+- **PURPOSE_DRIVEN_HIGH_CONVERTING:** Seluruh aset gambar dan video wajib difokuskan memuat 10 dimensi strategis: Pesan Kunci, Ciri Khas Unik, Branding, Penawaran, Solusi Masalah, Tema, Momen, Monetisasi, Persuasi, dan Siap Terbit Lintas Platform.
 - **NO_PLACEHOLDER:** Dilarang menggunakan komentar pemalas seperti `// add your prompt here` atau deskripsi setengah jadi. Setiap prompt, skrip, dan tata letak wajib 100% utuh, presisi, dan siap diproduksi.
 - **ZERO_AI_SLOP:** Wajib mengeliminasi kulit lilin plastik, jari tangan abnormal, gradasi ungu-pink murahan, teks alien melayang, dan pergerakan kamera tanpa arah fisik.
 - **PROMPT_STANDARDIZATION:** Wajib mematuhi standar penulisan IEEE P3394, ISO/IEC TS 42119-8, taksonomi 6-modifier Jonas Oppenlaender (ACM), dan delimitas XML Anthropic.

@@ -45,17 +45,21 @@ Seluruh model AI (Gemini, Antigravity, Claude, Cursor) dan perancang kreatif man
 10. **[RULE-10-COLLATERAL-STANDARDS] Kepatuhan ISO 216, IAB LEAN, & Meta Safe Zones:**
     - Wajib menerapkan bleed $3\text{mm}$ pada cetak, optical center $55\% - 60\%$, batas LEAN IAB $\le 200\text{KB}$, dan zona aman UI cerita 9:16 (Top $270\text{px}$, Bottom $270\text{px}$/$670\text{px}$, Margin $65\text{px}$).
 
+11. **[RULE-11-PURPOSE-DRIVEN-CONTENT] 10 Dimensi Visual Berdampak Tinggi:**
+    - Setiap visual dan video wajib difokuskan memuat: Pesan Kunci, Ciri Khas, Branding, Penawaran, Solusi Masalah, Tema, Momen, Monetisasi, Persuasi, dan Kesiapan Lintas Platform (Omnichannel).
+
 ---
 
 ## 2. PANDUAN PENGGUNAAN CEPAT (QUICK ROUTING)
 
 - Untuk panduan interaktif penggunaan: Panggil `@playbook` atau rujuk [`doc/cara_penggunaan_skill.md`](doc/cara_penggunaan_skill.md)
+- Untuk kerangka kerja konten siap pakai & monetisasi: Panggil `@strategy` atau rujuk [`doc/strategic_visual_publishing_framework.md`](doc/strategic_visual_publishing_framework.md)
 - Untuk standar media dunia: Panggil `@media` atau rujuk [`doc/international_media_standards.md`](doc/international_media_standards.md)
 - Untuk audit standar prompt: Panggil `@prompt` atau rujuk [`.agents/skills/international-prompt-standards/SKILL.md`](.agents/skills/international-prompt-standards/SKILL.md)
 - Untuk prompt foto & ilustrasi: Panggil `@image` atau rujuk [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md)
 - Untuk video & storyboard: Panggil `@video` atau rujuk [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md)
 - Untuk brand identity & logo: Panggil `@brand` atau rujuk [`.agents/skills/brand-identity-crafter/SKILL.md`](.agents/skills/brand-identity-crafter/SKILL.md)
 - Untuk flayer, banner, carousel, status/stories: Panggil `@marketing` atau `@collateral` atau rujuk [`.agents/skills/marketing-collateral-architect/SKILL.md`](.agents/skills/marketing-collateral-architect/SKILL.md)
-- Untuk grafik kode SVG: Panggil `@programmatic` atau jalankan `python .agents/skills/programmatic-graphics-engine/scripts/generate_svg_card.py`
+- Untuk grafik kode SVG: Panggil `@programmatic` atau jalankan `python .agents/skills/programmatic-graphics-engine/scripts/generate_architecture_banner.py`
 - Untuk audit kualitas prompt: Jalankan `python scripts/audit_design_prompt.py`
 - Untuk validasi safe zones & spesifikasi marketing: Jalankan `python scripts/verify_collateral_specs.py`
