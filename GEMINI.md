@@ -1,0 +1,47 @@
+# Universal System Invariants & Autonomous Agent Rules (GEMINI.md)
+> **Engine:** Desaiin-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
+> **Standards:** Bauhaus, Dieter Rams (*10 Principles*), Josef Müller-Brockmann (*Grid Systems*), Robert Bringhurst (*Typographic Style*), American Society of Cinematographers (ASC), Disney's 12 Principles of Animation, WCAG 2.2 AAA.
+
+---
+
+## 1. ATURAN KERJA UTAMA & ANTI-SLOP POLICY
+
+Seluruh model AI (Gemini, Antigravity, Claude, Cursor) dan perancang kreatif manusia wajib mematuhi aturan baku ini:
+
+1. **[RULE-01-NO-PLACEHOLDER] Kontrak Kode & Prompt 100% Utuh:**
+   - Dilarang keras menggunakan komentar pemalas atau prompt rintisan: `// add more details later`, `/* ...rest of prompt... */`, atau kata-kata umum tanpa nilai estetika.
+   - Prompt yang dihasilkan wajib tuntas, terkalibrasi parameter optik dan kameranya, serta langsung siap digunakan di engine produksi.
+
+2. **[RULE-02-ZERO-AI-SLOP] Larangan Mutlak Klise Visual AI:**
+   - Eliminasi kulit lilin mengkilap, tangan cacat, gradasi ungu-pink murahan, dan teks mengambang fiktif.
+   - Setiap visual manusia wajib menyertakan mikrotekstur pori-pori (*subsurface scattering*), garis ekspresi natural, dan *catchlight* bola mata yang koheren.
+
+3. **[RULE-03-GROUNDED-OPTICS] Fisika Kamera & Lensa Eksplisit:**
+   - Dilarang menggunakan istilah basi seperti "photorealistic", "ultra realistic", atau "8k wallpaper".
+   - Wajib menggantinya dengan spesifikasi kamera nyata (Hasselblad H6D, Leica M11, Arri Alexa LF), panjang fokus lensa ($35\text{mm}, 50\text{mm}, 85\text{mm}$), dan bukaan diafragma ($f/1.4, f/2.8, f/8$).
+
+4. **[RULE-04-CINEMATIC-MOTION] Vektor Gerak Fisik pada Video:**
+   - Dilarang membuat video dengan kamera melayang acak tanpa gravitasi (*drifting camera*).
+   - Gunakan vektor kamera fisik: Dolly In/Out, Truck Left/Right, Crane Boom, Slow Pan, atau Orbit Arc dengan kecepatan 24fps dan rana 180°.
+
+5. **[RULE-05-COLOR-DISCIPLINE] Aturan Distribusi 60-30-10 & Emulasi Film Kimia:**
+   - Terapkan 60% warna dominan netral, 30% warna struktural, dan 10% warna aksen fokus.
+   - Gunakan emulasi film kimia nyata (Kodak Vision3 500T, Kodak Portra 400, Fujifilm Eterna) untuk mencegah saturasi berlebih.
+
+6. **[RULE-06-SWISS-TYPOGRAPHY] Tata Letak Grid 8-Point & Ukuran Karakter Bringhurst:**
+   - Seluruh susunan grafis terikat pada sistem kisi modular kelipatan 8px.
+   - Panjang baris teks baca wajib dikontrol ketat antara 45 hingga 75 karakter per baris (CPL).
+
+7. **[RULE-07-AUTONOMOUS-EXECUTION] Eksekusi Mandiri & Kualitas Terverifikasi:**
+   - Eksekusi pembuatan berkas, pengujian skrip Python, dan validasi kontras secara mandiri dan proaktif dalam satu giliran kerja.
+   - Wajib memverifikasi skor audit prompt ($\ge 85/100$) menggunakan `scripts/audit_design_prompt.py`.
+
+---
+
+## 2. PANDUAN PENGGUNAAN CEPAT (QUICK ROUTING)
+
+- Untuk prompt foto & ilustrasi: Panggil `@image` atau rujuk [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md)
+- Untuk video & storyboard: Panggil `@video` atau rujuk [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md)
+- Untuk brand identity & logo: Panggil `@brand` atau rujuk [`.agents/skills/brand-identity-crafter/SKILL.md`](.agents/skills/brand-identity-crafter/SKILL.md)
+- Untuk grafik kode SVG: Panggil `@programmatic` atau jalankan `python .agents/skills/programmatic-graphics-engine/scripts/generate_svg_card.py`
+- Untuk audit kualitas: Jalankan `python scripts/audit_design_prompt.py`

@@ -1,0 +1,49 @@
+# Desaiin-Grafis: Autonomous Creative & Multimedia Design System (llms.txt)
+> **Engine:** Desaiin-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
+> **Standards:** Bauhaus, Dieter Rams (*10 Principles*), Josef Müller-Brockmann (*Grid Systems*), Robert Bringhurst (*Typographic Style*), American Society of Cinematographers (ASC), Disney's 12 Principles of Animation, WCAG 2.2 AAA.
+
+---
+
+## 1. GOLDEN INVARIANTS MAP (SSoT)
+
+| Kode Invarian | Nama Kontrak | Dokumen SSoT | Ringkasan Aturan Mutlak |
+| :--- | :--- | :--- | :--- |
+| **[INV-DES-01]** | Zero AI Slop Policy | [`.agents/rules/universal_design_invariants.md`](.agents/rules/universal_design_invariants.md) | Larangan kulit lilin/plastik, gradasi neon ungu-pink, teks alien mengambang, tangan rusak. |
+| **[INV-DES-02]** | Weniger, aber besser | [`doc/design_manifesto.md`](doc/design_manifesto.md) | Dieter Rams: Hapus seluruh ornamen tanpa fungsi. Ruang kosong bernapas adalah kemewahan sejati. |
+| **[INV-DES-03]** | Swiss Modular Grid | [`.agents/rules/typography_and_layout_invariants.md`](.agents/rules/typography_and_layout_invariants.md) | Grid 8pt Müller-Brockmann, 12 kolom editorial, batas aman margin minimal 5% kanvas. |
+| **[INV-DES-04]** | Bringhurst Optimal Measure | [`doc/typography_bible.md`](doc/typography_bible.md) | Panjang baris 45-75 CPL (ideal: 66 CPL), skala modular matematis (Major Third 1.25 / Golden 1.618). |
+| **[INV-DES-05]** | Itten 60-30-10 & WCAG AAA | [`.agents/rules/color_theory_and_grading_invariants.md`](.agents/rules/color_theory_and_grading_invariants.md) | 60% dominan, 30% struktur, 10% aksen. Rasio kontras teks wajib $\ge 7:1$ (WCAG 2.2 AAA). |
+| **[INV-DES-06]** | Physical Camera Optics | [`.agents/rules/image_generation_invariants.md`](.agents/rules/image_generation_invariants.md) | Spesifikasi kamera nyata (Hasselblad, Leica, Arri), panjang lensa (mm), bukaan diafragma ($f/1.4 - f/11$). |
+| **[INV-DES-07]** | Natural Lighting Physics | [`doc/cinematography_guide.md`](doc/cinematography_guide.md) | Rembrandt chiaroscuro, volumetric haze, directional softbox, highlight roll-off organik. |
+| **[INV-DES-08]** | Material Authenticity | [`doc/anti_ai_slop_checklist.md`](doc/anti_ai_slop_checklist.md) | Subsurface scattering kulit, serat kain katun/linen, pantulan logam sikat, pembiasan kaca nyata. |
+| **[INV-DES-09]** | ASC Cinematography Motion | [`.agents/rules/video_cinematography_invariants.md`](.agents/rules/video_cinematography_invariants.md) | Vektor gerak fisik (Dolly, Truck, Pan, Crane, Orbit), 180° shutter blur, 24fps cinematic pacing. |
+| **[INV-DES-10]** | Disney 12 Motion Principles | [`.agents/rules/video_cinematography_invariants.md`](.agents/rules/video_cinematography_invariants.md) | Easing curves (slow-in/slow-out), arcs, follow-through, anticipation, zero temporal morphing. |
+
+---
+
+## 2. AI FAST TASK ROUTER
+
+Gunakan matriks ini untuk memilih skill yang tepat secara instan:
+
+| Perintah / Tag Pemicu | Domain Tugas | Skill Utama | Berkas SSoT & Template |
+| :--- | :--- | :--- | :--- |
+| `@image`, `@visual`, `@prompt-image` | Prompt Foto & Seni Gambar AI | [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md) | [`prompts/commercial_ads/`](prompts/commercial_ads/), [`prompts/cinematic_portraits/`](prompts/cinematic_portraits/) |
+| `@video`, `@cinema`, `@storyboard` | Pengarahan Sinematik & Urutan Video | [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md) | [`templates/storyboard_template.md`](templates/storyboard_template.md), [`doc/cinematography_guide.md`](doc/cinematography_guide.md) |
+| `@brand`, `@identity`, `@logo` | Identitas Merek & Desain Manual | [`.agents/skills/brand-identity-crafter/SKILL.md`](.agents/skills/brand-identity-crafter/SKILL.md) | [`templates/brand_identity_guideline.md`](templates/brand_identity_guideline.md), [`prompts/branding/`](prompts/branding/) |
+| `@programmatic`, `@svg`, `@code-graphics` | Grafik Vektor Kode (SVG & FFmpeg) | [`.agents/skills/programmatic-graphics-engine/SKILL.md`](.agents/skills/programmatic-graphics-engine/SKILL.md) | [`.agents/skills/programmatic-graphics-engine/scripts/generate_svg_card.py`](.agents/skills/programmatic-graphics-engine/scripts/generate_svg_card.py) |
+| `@audit`, `#audit-prompt`, `#anti-slop` | Audit Kualitas Prompt & Anti-Slop | Skrip Audit Mandiri | [`scripts/audit_design_prompt.py`](scripts/audit_design_prompt.py), [`doc/anti_ai_slop_checklist.md`](doc/anti_ai_slop_checklist.md) |
+| `@palette`, `#wcag`, `#color-contrast` | Kalkulasi Harmoni Warna & Kontras | Skrip Palet Matematis | [`scripts/generate_palette.py`](scripts/generate_palette.py), [`doc/color_palette_mastery.md`](doc/color_palette_mastery.md) |
+
+---
+
+## 3. ENGINE PROMPT SYNTAX SUMMARY
+
+### A. Formula Gambar (Midjourney v6.1 / FLUX.1):
+```
+[SUBJEK & TINDAKAN] + [LINGKUNGAN & SETTING] + [KAMERA & LENSA mm/f-stop] + [SKEMA CAHAYA & SUHU KELVIN] + [PALET WARNA & FILM STOCK] + [MATERIAL & TEKSTUR REALIS] + [--ar 16:9 --style raw --v 6.1]
+```
+
+### B. Formula Video (Runway Gen-3 / Kling 1.5 / Sora):
+```
+[Camera]: [Vektor Gerakan Fisik, misal: Smooth low-angle dolly-in]. [Scene]: [Subjek melakukan aksi dengan kinetika fisik alami], [Pencahayaan Chiaroscuro/Volumetrik], [Lensa Sinema & Kodak Vision3 Stock]. 24fps filmic pace, zero morphing.
+```
