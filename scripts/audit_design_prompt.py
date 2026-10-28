@@ -91,9 +91,9 @@ def audit_prompt(prompt_text: str, is_video: bool = False) -> dict:
     # Oppenlaender 6-part taxonomy score
     oppenlaender_score = sum([
         1 if len(prompt_text.split()) > 5 else 0, # Subject
-        1 if any(w in text_lower for w in ["in ", "on ", "at ", "room", "studio", "workshop", "exterior", "interior", "street"]) else 0, # Environment
+        1 if any(w in text_lower for w in ["in ", "on ", "at ", "room", "studio", "workshop", "exterior", "interior", "street", "courtyard", "laboratory"]) else 0, # Environment
         1 if found_lighting else 0, # Lighting
-        1 if any(w in text_lower for w in ["portra", "vision3", "velvia", "eterna", "monochrome", "palette", "amber", "obsidian", "slate"]) else 0, # Color/Film
+        1 if any(w in text_lower for w in ["portra", "vision3", "velvia", "eterna", "monochrome", "palette", "amber", "obsidian", "slate", "gold", "navy"]) else 0, # Color/Film
         1 if found_optics else 0, # Composition/Framing
         1 if found_material else 0 # Material
     ])
@@ -135,16 +135,22 @@ def print_audit_report(prompt: str, is_video: bool = False):
     print("=" * 76)
 
 if __name__ == "__main__":
-    sample_bad = "A beautiful girl smiling, photorealistic, 8k, hyper realistic, unreal engine render, neon purple background, gorgeous."
-    sample_good = (
-        "Intimate cinematic portrait of a 45-year-old female architect with subtle laugh lines and natural skin pores, "
-        "wearing a charcoal linen coat. Soft morning light entering through an oversized industrial window, "
-        "Rembrandt key lighting with natural shadows. Shot on Leica M11, Summilux 50mm lens at f/1.4, Kodak Portra 400 grain, "
-        "authentic tactile linen weave, creamy background bokeh --ar 16:9 --style raw --v 6.1"
-    )
-    
-    print("\n--- AUDITING AMATEUR SLOP PROMPT ---")
-    print_audit_report(sample_bad, is_video=False)
-    
-    print("\n--- AUDITING WORLD-CLASS PRODUCTION PROMPT ---")
-    print_audit_report(sample_good, is_video=False)
+    if len(sys.argv) > 1:
+        custom_args = [a for a in sys.argv[1:] if a != "--video"]
+        custom_prompt = " ".join(custom_args).strip()
+        is_vid = "--video" in sys.argv
+        print_audit_report(custom_prompt, is_video=is_vid)
+    else:
+        sample_bad = "A beautiful girl smiling, photorealistic, 8k, hyper realistic, unreal engine render, neon purple background, gorgeous."
+        sample_good = (
+            "Intimate cinematic portrait of a 45-year-old female architect with subtle laugh lines and natural skin pores, "
+            "wearing a charcoal linen coat. Soft morning light entering through an oversized industrial window, "
+            "Rembrandt key lighting with natural shadows. Shot on Leica M11, Summilux 50mm lens at f/1.4, Kodak Portra 400 grain, "
+            "authentic tactile linen weave, creamy background bokeh --ar 16:9 --style raw --v 6.1"
+        )
+        
+        print("\n--- AUDITING AMATEUR SLOP PROMPT ---")
+        print_audit_report(sample_bad, is_video=False)
+        
+        print("\n--- AUDITING WORLD-CLASS PRODUCTION PROMPT ---")
+        print_audit_report(sample_good, is_video=False)
