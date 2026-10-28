@@ -10,15 +10,17 @@ Rujuk berkas berikut sebagai Single Source of Truth (SSoT):
 3. [`llms.txt`](llms.txt) — Peta Golden Invariants dan AI Fast Task Router.
 4. [`doc/design_manifesto.md`](doc/design_manifesto.md) — Filosofi Dieter Rams (*Weniger, aber besser*), Bauhaus, dan Swiss Grid.
 5. [`doc/anti_ai_slop_checklist.md`](doc/anti_ai_slop_checklist.md) — Lembar audit 25 poin kualitas visual sebelum publikasi.
+6. [`doc/cara_penggunaan_skill.md`](doc/cara_penggunaan_skill.md) — Buku panduan lengkap dan interaktif penggunaan seluruh skill.
 
 ### B. Peta Invarian Spesialisasi:
-1. **Standar Prompt Internasional:** [`.agents/rules/international_prompt_standards.md`](.agents/rules/international_prompt_standards.md) ➔ [`.agents/skills/international-prompt-standards/SKILL.md`](.agents/skills/international-prompt-standards/SKILL.md) ➔ [`doc/international_prompting_bible.md`](doc/international_prompting_bible.md)
-2. **Fotografi & Generasi Gambar:** [`.agents/rules/image_generation_invariants.md`](.agents/rules/image_generation_invariants.md) ➔ [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md)
-3. **Sinematografi & Video AI:** [`.agents/rules/video_cinematography_invariants.md`](.agents/rules/video_cinematography_invariants.md) ➔ [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md) ➔ [`doc/cinematography_guide.md`](doc/cinematography_guide.md)
-4. **Identitas Merek & Logo:** [`.agents/skills/brand-identity-crafter/SKILL.md`](.agents/skills/brand-identity-crafter/SKILL.md) ➔ [`templates/brand_identity_guideline.md`](templates/brand_identity_guideline.md)
-5. **Tipografi & Tata Letak:** [`.agents/rules/typography_and_layout_invariants.md`](.agents/rules/typography_and_layout_invariants.md) ➔ [`doc/typography_bible.md`](doc/typography_bible.md)
-6. **Teori Warna & Grading:** [`.agents/rules/color_theory_and_grading_invariants.md`](.agents/rules/color_theory_and_grading_invariants.md) ➔ [`doc/color_palette_mastery.md`](doc/color_palette_mastery.md)
-7. **Grafik Berbasis Kode & SVG:** [`.agents/skills/programmatic-graphics-engine/SKILL.md`](.agents/skills/programmatic-graphics-engine/SKILL.md) ➔ [`scripts/audit_design_prompt.py`](scripts/audit_design_prompt.py)
+1. **Standar Produksi Multimedia:** [`.agents/rules/multimedia_production_standards.md`](.agents/rules/multimedia_production_standards.md) ➔ [`doc/international_media_standards.md`](doc/international_media_standards.md)
+2. **Standar Prompt Internasional:** [`.agents/rules/international_prompt_standards.md`](.agents/rules/international_prompt_standards.md) ➔ [`.agents/skills/international-prompt-standards/SKILL.md`](.agents/skills/international-prompt-standards/SKILL.md) ➔ [`doc/international_prompting_bible.md`](doc/international_prompting_bible.md)
+3. **Fotografi & Generasi Gambar:** [`.agents/rules/image_generation_invariants.md`](.agents/rules/image_generation_invariants.md) ➔ [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md)
+4. **Sinematografi & Video AI:** [`.agents/rules/video_cinematography_invariants.md`](.agents/rules/video_cinematography_invariants.md) ➔ [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md) ➔ [`doc/cinematography_guide.md`](doc/cinematography_guide.md)
+5. **Identitas Merek & Logo:** [`.agents/skills/brand-identity-crafter/SKILL.md`](.agents/skills/brand-identity-crafter/SKILL.md) ➔ [`templates/brand_identity_guideline.md`](templates/brand_identity_guideline.md)
+6. **Tipografi & Tata Letak:** [`.agents/rules/typography_and_layout_invariants.md`](.agents/rules/typography_and_layout_invariants.md) ➔ [`doc/typography_bible.md`](doc/typography_bible.md)
+7. **Teori Warna & Grading:** [`.agents/rules/color_theory_and_grading_invariants.md`](.agents/rules/color_theory_and_grading_invariants.md) ➔ [`doc/color_palette_mastery.md`](doc/color_palette_mastery.md)
+8. **Grafik Berbasis Kode & SVG:** [`.agents/skills/programmatic-graphics-engine/SKILL.md`](.agents/skills/programmatic-graphics-engine/SKILL.md) ➔ [`scripts/audit_design_prompt.py`](scripts/audit_design_prompt.py)
 
 ---
 

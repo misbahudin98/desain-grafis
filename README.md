@@ -24,10 +24,11 @@ flowchart TD
     subgraph Core ["SISTEM INVARIAN MUTLAK (.agents/rules)"]
         R1["universal_design_invariants.md"]
         R2["international_prompt_standards.md"]
-        R3["image_generation_invariants.md"]
-        R4["video_cinematography_invariants.md"]
-        R5["typography_and_layout_invariants.md"]
-        R6["color_theory_and_grading_invariants.md"]
+        R3["multimedia_production_standards.md"]
+        R4["image_generation_invariants.md"]
+        R5["video_cinematography_invariants.md"]
+        R6["typography_and_layout_invariants.md"]
+        R7["color_theory_and_grading_invariants.md"]
     end
 
     subgraph Skills ["SKILL AGENT OTONOM (.agents/skills)"]
@@ -39,12 +40,14 @@ flowchart TD
     end
 
     subgraph Knowledge ["KNOWLEDGE BASE & SSoT (doc/)"]
-        D1["international_prompting_bible.md"]
-        D2["design_manifesto.md"]
-        D3["cinematography_guide.md"]
-        D4["color_palette_mastery.md"]
-        D5["typography_bible.md"]
-        D6["anti_ai_slop_checklist.md"]
+        D1["cara_penggunaan_skill.md (Buku Panduan Praktis)"]
+        D2["international_media_standards.md (ICoD, ACES, SMPTE)"]
+        D3["international_prompting_bible.md (Standar Prompting)"]
+        D4["design_manifesto.md"]
+        D5["cinematography_guide.md"]
+        D6["color_palette_mastery.md"]
+        D7["typography_bible.md"]
+        D8["anti_ai_slop_checklist.md"]
     end
 
     subgraph Automation ["VALIDASI & AUTOMASI (scripts/)"]
@@ -65,9 +68,10 @@ flowchart TD
 ```
 desaiin-grafis/
 ├── .agents/
-│   ├── rules/                              # 6 Invarian Mutlak Sistem
+│   ├── rules/                              # 7 Invarian Mutlak Sistem
 │   │   ├── universal_design_invariants.md  # 12 Hukum Emas Desain & Anti-Slop
 │   │   ├── international_prompt_standards.md# Standar IEEE P3394, ISO, & Oppenlaender
+│   │   ├── multimedia_production_standards.md# Standar ICoD, ACES, SMPTE, & Ansel Adams
 │   │   ├── image_generation_invariants.md  # Rumus 7 Segmen Prompt & Optik Lensa
 │   │   ├── video_cinematography_invariants.md# Gramatika Bidikan & Vektor Kamera
 │   │   ├── typography_and_layout_invariants.md# Grid Swiss & Tipografi Bringhurst
@@ -79,6 +83,8 @@ desaiin-grafis/
 │       ├── brand-identity-crafter/         # Perancang Sistem Identitas Merek
 │       └── programmatic-graphics-engine/   # Generator SVG & Pipeline FFmpeg
 ├── doc/                                    # Master SSoT & Buku Panduan
+│   ├── cara_penggunaan_skill.md            # Buku Panduan Lengkap Cara Pakai Skill
+│   ├── international_media_standards.md    # Buku Standar Media Gambar & Video Dunia
 │   ├── international_prompting_bible.md    # Kitab Standar Prompting Internasional
 │   ├── design_manifesto.md                 # Manifesto Dieter Rams & Bauhaus
 │   ├── cinematography_guide.md             # Panduan Pencahayaan & Optik Sinema

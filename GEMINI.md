@@ -39,10 +39,15 @@ Seluruh model AI (Gemini, Antigravity, Claude, Cursor) dan perancang kreatif man
 8. **[RULE-08-PROMPT-STANDARDS] Kepatuhan IEEE P3394 & ISO/IEC TS 42119-8:**
    - Wajib menerapkan taksonomi 6-modifier Jonas Oppenlaender (ACM), pembatas XML Anthropic, dan parameter deterministik `--style raw`.
 
+9. **[RULE-09-MEDIA-STANDARDS] Kepatuhan ICoD, ACES, & SMPTE 180°:**
+   - Wajib menerapkan Ansel Adams Zone System, ACES Color pipeline, rasio data-ke-tinta Edward Tufte, dan 12 prinsip animasi Disney.
+
 ---
 
 ## 2. PANDUAN PENGGUNAAN CEPAT (QUICK ROUTING)
 
+- Untuk panduan interaktif penggunaan: Panggil `@playbook` atau rujuk [`doc/cara_penggunaan_skill.md`](doc/cara_penggunaan_skill.md)
+- Untuk standar media dunia: Panggil `@media` atau rujuk [`doc/international_media_standards.md`](doc/international_media_standards.md)
 - Untuk audit standar prompt: Panggil `@prompt` atau rujuk [`.agents/skills/international-prompt-standards/SKILL.md`](.agents/skills/international-prompt-standards/SKILL.md)
 - Untuk prompt foto & ilustrasi: Panggil `@image` atau rujuk [`.agents/skills/visual-prompt-architect/SKILL.md`](.agents/skills/visual-prompt-architect/SKILL.md)
 - Untuk video & storyboard: Panggil `@video` atau rujuk [`.agents/skills/cinema-video-director/SKILL.md`](.agents/skills/cinema-video-director/SKILL.md)
