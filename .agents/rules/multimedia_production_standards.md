@@ -1,5 +1,5 @@
 # Standar Produksi Grafis & Video Multimedia Internasional (multimedia_production_standards.md)
-> **Engine:** Desaiin-Grafis Multimedia Standards Core v1.0.0  
+> **Engine:** Desain-Grafis Multimedia Standards Core v1.0.0  
 > **Otoritas Rujukan:**  
 > - **Grafis & Desain:** International Council of Design (ICoD), Josef Müller-Brockmann (*Swiss Grid*), Dieter Rams (*Braun*), Edward Tufte (*Yale*), Robert Bringhurst (*Typographic Style*), ISO 12647 (*Print Standards*), WCAG 2.2 AAA.  
 > - **Fotografi & Sinematografi:** American Society of Cinematographers (ASC Manual), Ansel Adams (*Zone System*), Henri Cartier-Bresson (*The Decisive Moment*), Roger Deakins, ASC, BSC.  

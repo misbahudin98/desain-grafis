@@ -1,5 +1,5 @@
 # Manifesto Desain Visual & Sinematografi Kelas Dunia (design_manifesto.md)
-> **Engine:** Desaiin-Grafis Philosophy & Master SSoT v1.0.0  
+> **Engine:** Desain-Grafis Philosophy & Master SSoT v1.0.0  
 > **Fondasi Teoretis:** Dieter Rams (*Braun*), Bauhaus (*Weimar & Dessau*), Josef Müller-Brockmann (*Zürich*), Edward Tufte (*Yale*), American Society of Cinematographers (*Hollywood*).  
 > **Status:** Single Source of Truth (SSoT) untuk Seluruh Agen Otonom & Pengarah Kreatif Manusia.
 
@@ -9,7 +9,7 @@
 
 Ledakan kecerdasan buatan generatif (Generative AI) telah membanjiri dunia digital dengan miliaran gambar dan video berkarakter buruk yang seragam: manusia dengan kulit lilin tanpa pori-pori, gradasi warna ungu-pink neon yang menyilaukan mata, ornamen kaca buram (*glassmorphism*) yang tidak dapat dibaca, serta adegan video dengan kamera mengambang tanpa gravitasi. Fenomena ini dikenal sebagai **AI Visual Slop**.
 
-Repositori **`desaiin-grafis`** didirikan sebagai antitesis terhadap kekacauan tersebut. Repositori ini merestorasi prinsip-prinsip desain abadi (*timeless design principles*) yang telah teruji selama lebih dari satu abad oleh maestro seni visual dunia.
+Repositori **`desain-grafis`** didirikan sebagai antitesis terhadap kekacauan tersebut. Repositori ini merestorasi prinsip-prinsip desain abadi (*timeless design principles*) yang telah teruji selama lebih dari satu abad oleh maestro seni visual dunia.
 
 Setiap gambar yang di-generate, setiap video yang diarahkan, dan setiap tata letak yang dikompilasi dalam repositori ini tunduk pada hukum-hukum visual matematis dan filosofis yang ketat.
 
@@ -36,7 +36,7 @@ Dieter Rams meletakkan 10 prinsip abadi di Braun yang menjadi cetak biru desain 
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Penerapan dalam Repositori `desaiin-grafis`:
+### Penerapan dalam Repositori `desain-grafis`:
 - **Prinsip 10 (As little design as possible):** Hapus seluruh kotak hiasan, bayangan berlebihan, stiker mengambang, atau gradasi warna yang tidak memiliki fungsi struktural. Ruang kosong (*white space*) bukan area yang belum diisi; ruang kosong adalah elemen desain paling berharga yang memberi napas pada karya.
 
 ---

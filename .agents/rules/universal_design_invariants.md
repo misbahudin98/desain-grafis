@@ -1,5 +1,5 @@
 # Invarian Mutlak Desain Visual & Sinematografi Internasional (universal_design_invariants.md)
-> **Engine:** Desaiin-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
+> **Engine:** Desain-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
 > **Standar Dunia:** Bauhaus, Dieter Rams (*10 Principles for Good Design*), Josef Müller-Brockmann (*Grid Systems*), Robert Bringhurst (*The Elements of Typographic Style*), American Society of Cinematographers (ASC), Disney's 12 Principles of Animation, WCAG 2.2 AAA.  
 > **Target:** Autonomous Creative Agents (Antigravity, Midjourney, Flux, Runway, Kling, Sora) & Human Art Directors.
 

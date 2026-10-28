@@ -1,5 +1,5 @@
 # Panduan Penguasaan Palet Warna & Penataan Sinematik (color_palette_mastery.md)
-> **Engine:** Desaiin-Grafis Color Harmony System v1.0.0  
+> **Engine:** Desain-Grafis Color Harmony System v1.0.0  
 > **Fondasi:** Johannes Itten (*Bauhaus*), Josef Albers (*Yale*), DaVinci Resolve Academy, Kodak & Fujifilm Motion Picture Laboratories.  
 > **Status:** Single Source of Truth (SSoT) untuk Desain Brand, Tipografi, Gradasi Digital, dan Prompting AI.
 

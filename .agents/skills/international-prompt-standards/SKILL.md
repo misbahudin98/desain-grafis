@@ -4,7 +4,7 @@ description: Global prompt architecture and compilation engine grounded in IEEE 
 ---
 
 # International Prompt Standards Master Engine (SKILL.md)
-> **Engine:** Desaiin-Grafis Prompt Standards Compiler v1.0.0  
+> **Engine:** Desain-Grafis Prompt Standards Compiler v1.0.0  
 > **Otoritas Rujukan:** IEEE P3394, ISO/IEC TS 42119-8, Jonas Oppenlaender (ACM Taxonomy), Anthropic Claude XML Guidelines, OpenAI Prompt Engineering Guide, Midjourney v6.1 Research, Runway Director's Guide, ASC Manual.  
 > **Output:** Deterministic, Slop-Free, Production-Ready Prompts for LLM, Image (Midjourney/Flux), and Video (Runway/Kling/Sora).
 

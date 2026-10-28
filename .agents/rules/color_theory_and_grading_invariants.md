@@ -1,5 +1,5 @@
 # Invarian Teori Warna & Penataan Warna Sinematik (color_theory_and_grading_invariants.md)
-> **Engine:** Desaiin-Grafis Color Core v1.0.0  
+> **Engine:** Desain-Grafis Color Core v1.0.0  
 > **Standar Dunia:** Johannes Itten (*The Art of Color* - Bauhaus), Josef Albers (*Interaction of Color*), DaVinci Resolve Academy Grading Standards, Kodak/Fujifilm Cine Stocks, WCAG 2.2 AAA.  
 > **Aplikasi:** Visual Prompting, Color Palettes, Brand Guidelines, Video LUTs, UI/UX Color Tokens.
 

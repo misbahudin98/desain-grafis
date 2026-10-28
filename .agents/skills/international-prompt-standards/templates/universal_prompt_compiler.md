@@ -1,5 +1,5 @@
 # Template Master: Universal Prompt Compiler (universal_prompt_compiler.md)
-> **Engine:** Desaiin-Grafis International Prompt Compiler v1.0.0  
+> **Engine:** Desain-Grafis International Prompt Compiler v1.0.0  
 > **Kompatibilitas:** Anthropic XML, OpenAI Delimited, Midjourney v6.1, FLUX.1, Runway Gen-3, Kling 1.5.
 
 ---

@@ -1,5 +1,5 @@
 # Checklist Audit Kualitas Visual & Anti-AI Slop 25 Poin (anti_ai_slop_checklist.md)
-> **Engine:** Desaiin-Grafis Quality Assurance v1.0.0  
+> **Engine:** Desain-Grafis Quality Assurance v1.0.0  
 > **Standar Audit:** Zero AI Slop Protocol, Hollywood Visual Effects Standards, WCAG 2.2 AAA.  
 > **Target:** Evaluasi Setiap Hasil Generasi Gambar (Midjourney, Flux, Imagen) dan Video (Runway, Kling, Sora) Sebelum Dipublikasikan.
 

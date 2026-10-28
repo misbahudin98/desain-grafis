@@ -4,7 +4,7 @@ description: Autonomous programmatic design engine for algorithmic generation of
 ---
 
 # Programmatic Graphics Engine (SKILL.md)
-> **Engine:** Desaiin-Grafis Code-to-Design Engine v1.0.0  
+> **Engine:** Desain-Grafis Code-to-Design Engine v1.0.0  
 > **Teknologi:** Pure SVG, HTML5 Canvas, Python Pillow / Matplotlib, Node.js, FFmpeg.  
 > **Output:** Scalable Vector Graphics (SVG), Ultra-sharp Infographics, Dynamic Typography Posters, Programmatic Social Cards.
 

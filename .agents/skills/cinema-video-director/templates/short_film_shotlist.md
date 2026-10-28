@@ -1,5 +1,5 @@
 # Template Shot List & Storyboard Film Pendek Sinematik (short_film_shotlist.md)
-> **Engine:** Desaiin-Grafis Film Pre-production v1.0.0  
+> **Engine:** Desain-Grafis Film Pre-production v1.0.0  
 > **Format:** Sequence Storyboard & AI Video Prompt Matrix
 
 ---

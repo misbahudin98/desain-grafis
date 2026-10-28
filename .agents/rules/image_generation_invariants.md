@@ -1,5 +1,5 @@
 # Invarian Rekayasa Prompt Gambar & Ilustrasi AI (image_generation_invariants.md)
-> **Engine:** Desaiin-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
+> **Engine:** Desain-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
 > **Platform Target:** Midjourney v6.1, Flux.1 Pro/Dev, Imagen 3, Stable Diffusion XL (SDXL).  
 > **Standar Mutu:** Hasselblad Master Photography, National Geographic Documentary, Vogue Editorial, Architectural Digest, WCAG AAA.
 

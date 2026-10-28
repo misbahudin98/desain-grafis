@@ -1,5 +1,5 @@
 # Universal System Invariants & Autonomous Agent Rules (GEMINI.md)
-> **Engine:** Desaiin-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
+> **Engine:** Desain-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
 > **Standards:** Bauhaus, Dieter Rams (*10 Principles*), Josef Müller-Brockmann (*Grid Systems*), Robert Bringhurst (*Typographic Style*), American Society of Cinematographers (ASC), Disney's 12 Principles of Animation, WCAG 2.2 AAA.
 
 ---

@@ -4,7 +4,7 @@ description: Elite corporate brand identity and visual design system architect. 
 ---
 
 # Brand Identity Crafter (SKILL.md)
-> **Engine:** Desaiin-Grafis Brand System v1.0.0  
+> **Engine:** Desain-Grafis Brand System v1.0.0  
 > **Standar Dunia:** Paul Rand (*Thoughts on Design*), Michael Bierut (*Pentagram*), Dieter Rams, Massimo Vignelli (*Unigrid*), ISO 12647 Print Standards.  
 > **Output:** Brand Identity Manuals, Design Tokens, Logo Geometry Specs, Iconography Guidelines.
 

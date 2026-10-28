@@ -1,5 +1,5 @@
 # Spesifikasi Master Moodboard & Arah Seni Visual (moodboard_specification.md)
-> **Engine:** Desaiin-Grafis Art Direction Framework v1.0.0  
+> **Engine:** Desain-Grafis Art Direction Framework v1.0.0  
 > **Tujuan:** Menyatukan Visi Visual Klien, Art Director, dan Model AI Sebelum Proses Produksi Dimulai.
 
 ---

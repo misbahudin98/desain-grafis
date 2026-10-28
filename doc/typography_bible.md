@@ -1,5 +1,5 @@
 # Kitab Suci Tipografi & Ritme Spasial (typography_bible.md)
-> **Engine:** Desaiin-Grafis Typography Master Guide v1.0.0  
+> **Engine:** Desain-Grafis Typography Master Guide v1.0.0  
 > **Fondasi Teoretis:** Robert Bringhurst (*The Elements of Typographic Style*), Jan Tschichold (*The Form of the Book*), Josef Müller-Brockmann, Massimo Vignelli.  
 > **Status:** Single Source of Truth (SSoT) untuk Seluruh Pengarah Tipografi, Desainer Editorial, dan Agen AI.
 

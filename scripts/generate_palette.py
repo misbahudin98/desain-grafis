@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Desaiin-Grafis Color Palette & WCAG 2.2 AAA Contrast Calculator
+Desain-Grafis Color Palette & WCAG 2.2 AAA Contrast Calculator
 Computes Relative Luminance and verifies mathematical contrast ratios
 according to W3C WCAG 2.2 AAA standards (>= 7:1 for normal text, >= 4.5:1 for large text).
 """

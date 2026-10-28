@@ -1,4 +1,4 @@
-# Desaiin-Grafis: Autonomous Creative & Multimedia Design System
+# Desain-Grafis: Autonomous Creative & Multimedia Design System
 > **Arsitektur Produksi Multimedia & Arahan Seni Berstandar Internasional**  
 > *Deterministic Visual Prompting, Hollywood Cinematography, Swiss Modular Grids, and Zero AI Slop.*
 
@@ -6,7 +6,7 @@
 
 ## 1. PENDAHULUAN & FILOSOFI
 
-**`desaiin-grafis`** adalah ekosistem rekayasa desain visual dan sinematografi berbasis agen otonom dan manusia. Diciptakan untuk memecahkan masalah degradasi kualitas pada generasi visual AI (*AI Visual Slop*), repositori ini meletakkan fondasi matematis dan filosofis yang kokoh bersumber dari standar tertinggi dunia:
+**`desain-grafis`** adalah ekosistem rekayasa desain visual dan sinematografi berbasis agen otonom dan manusia. Diciptakan untuk memecahkan masalah degradasi kualitas pada generasi visual AI (*AI Visual Slop*), repositori ini meletakkan fondasi matematis dan filosofis yang kokoh bersumber dari standar tertinggi dunia:
 
 - **Dieter Rams (*10 Principles for Good Design*):** *"Weniger, aber besser"* (Kurang, tapi lebih baik). Eliminasi ornamen tanpa fungsi.
 - **Josef Müller-Brockmann (*Grid Systems*):** Kedisiplinan tata letak modular grid Swiss 8-point.
@@ -66,7 +66,7 @@ flowchart TD
 ## 3. PANDUAN STRUKTUR DIREKTORI
 
 ```
-desaiin-grafis/
+desain-grafis/
 ├── .agents/
 │   ├── rules/                              # 7 Invarian Mutlak Sistem
 │   │   ├── universal_design_invariants.md  # 12 Hukum Emas Desain & Anti-Slop

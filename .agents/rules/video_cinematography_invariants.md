@@ -1,5 +1,5 @@
 # Invarian Sinematografi & Pengarahan Video Internasional (video_cinematography_invariants.md)
-> **Engine:** Desaiin-Grafis Cinema Core v1.0.0  
+> **Engine:** Desain-Grafis Cinema Core v1.0.0  
 > **Standar Dunia:** American Society of Cinematographers (ASC), British Society of Cinematographers (BSC), Walter Murch (*In the Blink of an Eye*), Disney's 12 Principles of Animation, SMPTE Standards.  
 > **Target AI Engines:** Sora, Runway Gen-3 Alpha, Kling 1.5, Luma Dream Machine, Haiper, Pika 2.0, Midjourney Video.
 

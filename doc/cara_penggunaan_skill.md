@@ -1,13 +1,13 @@
 # Buku Panduan Lengkap Cara Penggunaan Seluruh Skill (cara_penggunaan_skill.md)
-> **Engine:** Desaiin-Grafis User Playbook v1.0.0  
+> **Engine:** Desain-Grafis User Playbook v1.0.0  
 > **Target:** Desainer, Art Director, Content Creator, dan Agen AI Otonom.  
-> **Status:** Panduan Praktis Interaktif Langkah-demi-Langkah Penggunaan Seluruh Skill di Repositori `desaiin-grafis`.
+> **Status:** Panduan Praktis Interaktif Langkah-demi-Langkah Penggunaan Seluruh Skill di Repositori `desain-grafis`.
 
 ---
 
 ## 1. PETA 5 SKILL KREATIF & TAG PEMICU KANONIKAL
 
-Repositori `desaiin-grafis` dilengkapi dengan **5 Skill Spesialis Otonom** yang dapat dipanggil menggunakan tag pemicu khusus:
+Repositori `desain-grafis` dilengkapi dengan **5 Skill Spesialis Otonom** yang dapat dipanggil menggunakan tag pemicu khusus:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐

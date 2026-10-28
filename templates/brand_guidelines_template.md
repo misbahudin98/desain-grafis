@@ -1,5 +1,5 @@
 # Template Master Pedoman Identitas Merek (brand_guidelines_template.md)
-> **Engine:** Desaiin-Grafis Brand System v1.0.0  
+> **Engine:** Desain-Grafis Brand System v1.0.0  
 > **Standar:** ISO 12647, Paul Rand 7 Tests, Swiss Modular System
 
 ---

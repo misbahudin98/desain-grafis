@@ -4,7 +4,7 @@ description: International visual prompt architecture engine for Midjourney v6.1
 ---
 
 # Visual Prompt Architect (SKILL.md)
-> **Engine:** Desaiin-Grafis Prompt Compiler v1.0.0  
+> **Engine:** Desain-Grafis Prompt Compiler v1.0.0  
 > **Target Engines:** Midjourney v6.1, FLUX.1 (Dev & Schnell), Imagen 3, Stable Diffusion XL.  
 > **Output Standard:** Production-Ready, Hyper-Detailed Prompts + Parameter Flags + Negative Prompts.
 

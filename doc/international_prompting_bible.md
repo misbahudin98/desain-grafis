@@ -1,5 +1,5 @@
 # Kitab Standar Internasional Penulisan Prompt AI (international_prompting_bible.md)
-> **Engine:** Desaiin-Grafis Master Documentation v1.0.0  
+> **Engine:** Desain-Grafis Master Documentation v1.0.0  
 > **Otoritas Ilmiah & Industri:**  
 > - **Standar Formal:** IEEE P3394, ISO/IEC TS 42119-8, ISO/IEC 42001.  
 > - **Penelitian Peer-Reviewed:** Jonas Oppenlaender (*ACM / ArXiv*), Vivian Liu et al. (*ACM CHI / Columbia University*), DAIR.AI (*Saravia et al.*).  

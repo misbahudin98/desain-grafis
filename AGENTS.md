@@ -1,5 +1,5 @@
 # Universal Agent Invariants & Creative Production Contract (AGENTS.md)
-> **Engine:** Desaiin-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
+> **Engine:** Desain-Grafis Core v1.0.0 (SDD-Creative-Deterministic)  
 > **Target:** Autonomous Creative Agents (Antigravity, Gemini, Claude, Cursor, Copilot) & Human Art Directors.
 
 Rujuk berkas berikut sebagai Single Source of Truth (SSoT):

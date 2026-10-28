@@ -1,5 +1,5 @@
 # Referensi Akademik & Standar Industri Kredibel Penulisan Prompt (academic_and_industry_citations.md)
-> **Engine:** Desaiin-Grafis Bibliography & Reference Database v1.0.0  
+> **Engine:** Desain-Grafis Bibliography & Reference Database v1.0.0  
 > **Status:** Single Source of Truth (SSoT) untuk Standar Ilmiah dan Otoritas Industri Prompt Engineering.
 
 ---

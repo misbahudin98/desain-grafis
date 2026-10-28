@@ -1,5 +1,5 @@
 # Anatomi & Klasifikasi Logo Internasional (logo_anatomy_and_types.md)
-> **Engine:** Desaiin-Grafis Brand Knowledge Base v1.0.0  
+> **Engine:** Desain-Grafis Brand Knowledge Base v1.0.0  
 > **Standar:** International Council of Design (ICoD) & Pentagram Standards.
 
 ---

@@ -1,5 +1,5 @@
 # Invarian Tipografi & Tata Letak Modular Grid Internasional (typography_and_layout_invariants.md)
-> **Engine:** Desaiin-Grafis Typography Core v1.0.0  
+> **Engine:** Desain-Grafis Typography Core v1.0.0  
 > **Standar Dunia:** Josef Müller-Brockmann (*Grid Systems in Graphic Design*), Robert Bringhurst (*The Elements of Typographic Style*), Jan Tschichold (*Die neue Typographie*), Wim Crouwel, Massimo Vignelli (*The Vignelli Canon*), Ellen Lupton (*Thinking with Type*), WCAG 2.2 AAA.  
 > **Aplikasi:** Editorial Layout, Brand Guidelines, UI/UX Posters, Pitch Decks, Social Media Typography.
 

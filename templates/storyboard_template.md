@@ -1,5 +1,5 @@
 # Template Master Storyboard & Audio-Visual Continuity (storyboard_template.md)
-> **Engine:** Desaiin-Grafis Pre-Production Engine v1.0.0  
+> **Engine:** Desain-Grafis Pre-Production Engine v1.0.0  
 > **Standar:** SMPTE & Hollywood Pre-visualization Guidelines  
 > **Tujuan:** Merancang Urutan Video AI Terpadu (Runway, Kling, Sora) dengan Kontinuitas Visual 100%.
 
@@ -11,7 +11,7 @@
 - **Durasi Total:** [Misal: 30 Detik / 60 Detik]
 - **Target Platform:** YouTube (16:9) / Instagram & TikTok (9:16) / Bioskop (2.39:1)
 - **Color Grading & LUT:** [Misal: Kodak Vision3 500T / Teal & Orange / Bleach Bypass]
-- **Director of Photography (DoP):** Desaiin-Grafis Cinema Video Director
+- **Director of Photography (DoP):** Desain-Grafis Cinema Video Director
 
 ---
 

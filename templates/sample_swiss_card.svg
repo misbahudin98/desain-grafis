@@ -58,7 +58,7 @@
   <g transform="translate(80, 540)">
     <!-- Author Name -->
     <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#F1F5F9">
-      Desaiin-Grafis Core Studio
+      Desain-Grafis Core Studio
     </text>
     <text x="0" y="20" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="400" fill="#64748B">
       CREATIVE DIRECTION &amp; CODE ARCHITECTURE
@@ -69,7 +69,7 @@
       ISO 12647 // WCAG 2.2 AAA
     </text>
     <text x="1040" y="20" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="400" fill="#64748B">
-      DESAIIN-GRAFIS PRODUCTION ENGINE
+      DESAIN-GRAFIS PRODUCTION ENGINE
     </text>
   </g>
 </svg>

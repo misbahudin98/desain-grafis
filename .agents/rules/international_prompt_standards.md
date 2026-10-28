@@ -1,5 +1,5 @@
 # Standar Internasional Penulisan Prompt AI (international_prompt_standards.md)
-> **Engine:** Desaiin-Grafis Prompt Standards Core v1.0.0 (Deterministic Multimodal)  
+> **Engine:** Desain-Grafis Prompt Standards Core v1.0.0 (Deterministic Multimodal)  
 > **Standar Rujukan Dunia:**  
 > - **Formal Standards:** IEEE P3394 (*Standard for Large Language Model Agent Interface*), ISO/IEC TS 42119-8 (*AI Testing: Quality Assessment of Prompt-based Systems*), ISO/IEC 42001.  
 > - **Akademik & Taksonomi:** Jonas Oppenlaender (*ACM / ArXiv - Taxonomy of Prompt Modifiers for Text-to-Image Generation*), Vivian Liu et al. (*ACM CHI - Design Guidelines for Prompt Engineering*), DAIR.AI (*Prompt Engineering Guide* - Elvis Saravia).  

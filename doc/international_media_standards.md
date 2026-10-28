@@ -1,5 +1,5 @@
 # Buku Standar Internasional Pembuatan Gambar & Video Grafis (international_media_standards.md)
-> **Engine:** Desaiin-Grafis Master Multimedia Guide v1.0.0  
+> **Engine:** Desain-Grafis Master Multimedia Guide v1.0.0  
 > **Otoritas Rujukan Dunia:**  
 > - **Organisasi & Manual:** International Council of Design (ICoD), American Society of Cinematographers (ASC), Society of Motion Picture and Television Engineers (SMPTE), Academy of Motion Picture Arts and Sciences (ACES - SMPTE ST 2065-1).  
 > - **Maestro Desain & Tipografi:** Dieter Rams (*Braun*), Josef Müller-Brockmann (*Swiss Grid*), Edward Tufte (*Yale*), Robert Bringhurst (*Elements of Typographic Style*), Paul Rand, Massimo Vignelli.  
@@ -12,7 +12,7 @@
 
 Pembuatan gambar diam (*stills*) dan video grafis (*motion design*) berstandar internasional bukanlah tentang mengikuti tren media sosial sesaat yang cepat usang, melainkan tentang **menguasai sintesis antara sains persepsi manusia (*perceptual science*), matematika tata letak (*spatial mathematics*), dan disiplin optik fisika (*physical optics*)**.
 
-Dokumen ini menyajikan rujukan paling kredibel dan otoritatif di dunia yang menjadi fondasi setiap karya visual di repositori **`desaiin-grafis`**.
+Dokumen ini menyajikan rujukan paling kredibel dan otoritatif di dunia yang menjadi fondasi setiap karya visual di repositori **`desain-grafis`**.
 
 ---
 

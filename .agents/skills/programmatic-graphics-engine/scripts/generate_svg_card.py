@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Desaiin-Grafis Programmatic SVG Card Generator
+Desain-Grafis Programmatic SVG Card Generator
 Generates world-class, Swiss Modernist OpenGraph / Social Media vector cards (1200x630)
 with mathematical typography hierarchy, subtle noise, grid lines, and WCAG 2.2 AAA contrast.
 """
@@ -88,7 +88,7 @@ def generate_swiss_card(
       ISO 12647 // WCAG 2.2 AAA
     </text>
     <text x="1040" y="20" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="400" fill="#64748B">
-      DESAIIN-GRAFIS PRODUCTION ENGINE
+      DESAIN-GRAFIS PRODUCTION ENGINE
     </text>
   </g>
 </svg>
@@ -104,6 +104,6 @@ if __name__ == "__main__":
         title="International Creative Direction",
         subtitle="Deterministic visual prompting, Hollywood cinematography, and Swiss modular grids.",
         category="Creative Engine",
-        author="Desaiin-Grafis Core Studio",
-        output_path="D:/laragon/www/desaiin-grafis/templates/sample_swiss_card.svg"
+        author="Desain-Grafis Core Studio",
+        output_path=str(Path(__file__).resolve().parents[4] / "templates" / "sample_swiss_card.svg")
     )

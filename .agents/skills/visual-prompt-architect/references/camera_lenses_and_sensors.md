@@ -1,5 +1,5 @@
 # Panduan Referensi Optik Kamera, Lensa, & Sensor Fisik (camera_lenses_and_sensors.md)
-> **Engine:** Desaiin-Grafis Optics Database v1.0.0  
+> **Engine:** Desain-Grafis Optics Database v1.0.0  
 > **Tujuan:** Panduan parameter optik fisik untuk injeksi ke prompt Midjourney, Flux, dan Imagen 3.
 
 ---

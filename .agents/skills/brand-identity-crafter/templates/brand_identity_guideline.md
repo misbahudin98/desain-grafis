@@ -7,7 +7,7 @@
 # BRAND IDENTITY GUIDELINE & STYLE GUIDE: [NAMA PERUSAHAAN]
 **Versi Dokumen:** 1.0.0  
 **Tanggal Rilis:** [YYYY-MM-DD]  
-**Arsitek Desain:** Desaiin-Grafis Brand Identity Crafter  
+**Arsitek Desain:** Desain-Grafis Brand Identity Crafter  
 
 ---
 

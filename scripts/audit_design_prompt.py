@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Desaiin-Grafis Prompt Quality & Anti-Slop Auditor
+Desain-Grafis Prompt Quality & Anti-Slop Auditor
 Evaluates AI Image and Video prompts against international standards:
 IEEE P3394, ISO/IEC TS 42119-8, Jonas Oppenlaender 6-Part Taxonomy (ACM),
 American Society of Cinematographers (ASC), and Anti-AI Slop protocols.
@@ -115,7 +115,7 @@ def audit_prompt(prompt_text: str, is_video: bool = False) -> dict:
 def print_audit_report(prompt: str, is_video: bool = False):
     result = audit_prompt(prompt, is_video)
     print("=" * 76)
-    print(f"DESAIIN-GRAFIS PROMPT AUDIT REPORT (Target: {'Video AI' if is_video else 'Image AI'})")
+    print(f"DESAIN-GRAFIS PROMPT AUDIT REPORT (Target: {'Video AI' if is_video else 'Image AI'})")
     print(f"Standards: IEEE P3394 // ISO/IEC TS 42119-8 // Oppenlaender ACM Taxonomy")
     print("=" * 76)
     print(f"PROMPT TEXT:\n\"{prompt[:140]}...\"\n")

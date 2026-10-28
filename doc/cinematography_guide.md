@@ -1,5 +1,5 @@
 # Buku Panduan Sinematografi & Pengarahan Kamera Film (cinematography_guide.md)
-> **Engine:** Desaiin-Grafis Cinema Master Guide v1.0.0  
+> **Engine:** Desain-Grafis Cinema Master Guide v1.0.0  
 > **Standar Dunia:** American Society of Cinematographers (ASC), British Society of Cinematographers (BSC), Walter Murch (*In the Blink of an Eye*).  
 > **Tujuan:** Panduan Komprehensif Sutradara & DoP AI untuk Menghasilkan Klip Video & Gambar Setara Sinema Layar Lebar Hollywood.
 

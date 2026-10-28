@@ -4,7 +4,7 @@ description: Hollywood-grade cinematographic direction engine for AI video gener
 ---
 
 # Cinema Video Director (SKILL.md)
-> **Engine:** Desaiin-Grafis Cinema Director v1.0.0  
+> **Engine:** Desain-Grafis Cinema Director v1.0.0  
 > **Target Video AI:** Runway Gen-3 Alpha, Kling 1.5 Pro, OpenAI Sora, Luma Dream Machine, Haiper.  
 > **Kompatibilitas Standar:** ASC (American Society of Cinematographers) Grammars & Walter Murch 6 Rules of Film Editing.
 

@@ -1,5 +1,5 @@
 # Glosarium Pergerakan Kamera Sinematografi ASC (camera_movement_glossary.md)
-> **Engine:** Desaiin-Grafis Cinema Database v1.0.0  
+> **Engine:** Desain-Grafis Cinema Database v1.0.0  
 > **Standar:** American Society of Cinematographers (ASC) & Hollywood Motion Grammar.
 
 ---
